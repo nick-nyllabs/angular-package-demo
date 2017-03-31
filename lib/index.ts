@@ -1,3 +1,2 @@
-import { HelloWorld } from './helloWorld.component';
-
-export { HelloWorld };
+export * from './helloWorld.component';
+export * from './mellowWorld/mellowWorld.component';
