@@ -1,1 +1,7 @@
 removed "&& mv lib/uxcore.component.ts.bak lib/uxcore.component.ts" at end of build script.
+
+new thing def changed
+  "main": "uxcore.bundle.js",
+  "jsnext:main": "uxcore.module.js",
+  "module": "uxcore.module.js",
+  "types": "uxcore.module.d.ts",

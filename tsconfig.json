@@ -20,9 +20,11 @@
     ]
   },
   "files": [
+    "./lib/index",
     "./lib/uxcore.module.ts"
   ],
   "angularCompilerOptions": {
-    "skipTemplateCodegen": true
+    "skipTemplateCodegen": false,
+     "strictMetadataEmit": true
   }
 }
