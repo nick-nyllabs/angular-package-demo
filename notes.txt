@@ -1,0 +1,1 @@
+removed "&& mv lib/uxcore.component.ts.bak lib/uxcore.component.ts" at end of build script.

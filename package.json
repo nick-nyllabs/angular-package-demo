@@ -1,7 +1,7 @@
 {
-  "name": "ngresizable",
-  "version": "0.1.2",
-  "description": "Simple, tree-shakable, AoT, Universal and Web Worker friendly resizable component for Angular (2 and beyond).",
+  "name": "ux-core-demo",
+  "version": "0.2.2",
+  "description": "a demo. dont worry abou it",
   "main": "ngresizable.bundle.js",
   "jsnext:main": "ngresizable.module.js",
   "module": "ngresizable.module.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "mocha --require ts-node/register test/**/*.spec.ts --recursive",
     "test:watch": "mocha -w --require ts-node/register test/**/*.spec.ts --recursive",
-    "build": "rimraf dist && ts-node tools/inline-styles.ts && tsc -p tsconfig-esm.json && rollup -c rollup.config.js dist/ngresizable.module.js > dist/ngresizable.bundle.js && cp package.json dist && ts-node tools/cleanup.ts && ngc && mv lib/ngresizable.component.ts.bak lib/ngresizable.component.ts && cp README.md dist",
+    "build": "rimraf dist && ts-node tools/inline-styles.ts && tsc -p tsconfig-esm.json && rollup -c rollup.config.js dist/uxcore.module.js > dist/uxcore.bundle.js && cp package.json dist && ts-node tools/cleanup.ts && ngc",
     "build.demo": "rimraf demo/dist && tsc -p tsconfig-demo.json",
     "lint": "tslint -c tslint.json lib/**/*.ts test/**/*.ts"
   },
@@ -22,12 +22,12 @@
     "angular",
     "resizable"
   ],
-  "author": "Minko Gechev <mgechev@gmail.com>",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mgechev/ngresizable/issues"
+    "url": "https://github.com/nick-nyllabs/uxcore/issues"
   },
-  "homepage": "https://github.com/mgechev/ngresizable#readme",
+  "homepage": "https://github.com/nick-nyllabs/uxcore#readme",
   "peerDependencies": {
     "@angular/core": ">=2.0.0"
   },

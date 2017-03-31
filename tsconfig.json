@@ -20,7 +20,7 @@
     ]
   },
   "files": [
-    "./lib/ngresizable.module.ts"
+    "./lib/uxcore.module.ts"
   ],
   "angularCompilerOptions": {
     "skipTemplateCodegen": true
