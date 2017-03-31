@@ -1,6 +1,6 @@
 {
   "name": "ux-core-demo",
-  "version": "0.1.2",
+  "version": "0.2.2",
   "description": "a demo. dont worry abou it",
   "main": "ngresizable.bundle.js",
   "jsnext:main": "ngresizable.module.js",
@@ -18,7 +18,7 @@
   "author": "Minko Gechev <mgechev@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mgechev/ngresizable/issues"
+    "url": "https://github.com/nick-nyllabs/uxcore/issues"
   },
   "homepage": "https://github.com/mgechev/ngresizable#readme",
   "peerDependencies": {

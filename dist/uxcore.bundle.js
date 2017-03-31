@@ -18,7 +18,7 @@ var HelloWorld = (function () {
 HelloWorld = __decorate$1([
     _angular_core.Component({
         selector: 'hello-world',
-        template: "\n    <div>\n        <h1>Hello World</h1>\n        <p>We did a compoment</p>\n    </div>\n    "
+        template: "\n    <div>\n        <h1>JELLO WORLD</h1>\n        <p>We did a compoment</p>\n    </div>\n    "
     })
 ], HelloWorld);
 
