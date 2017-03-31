@@ -1,6 +1,6 @@
 export default {
   format: 'umd',
-  moduleName: 'ngresizable',
+  moduleName: 'uxcore',
   external: [
     '@angular/core',
     '@angular/common'
