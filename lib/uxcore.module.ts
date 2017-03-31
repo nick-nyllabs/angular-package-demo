@@ -6,7 +6,7 @@ import {MellowWorldComponent} from "./mellowWorld/mellowWorld.component";
 import {YellowWorld} from "./yellowWorld.component";
 
 @NgModule({
-  imports: [CommonModule],
+  imports: [CommonModule, HelloWorld, MellowWorldComponent, YellowWorld],
   declarations: [HelloWorld, MellowWorldComponent, YellowWorld],
   exports: [HelloWorld, MellowWorldComponent,YellowWorld]
 })

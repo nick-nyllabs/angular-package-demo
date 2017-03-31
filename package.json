@@ -1,11 +1,11 @@
 {
   "name": "ux-core-demo",
-  "version": "0.3.3",
+  "version": "0.3.77",
   "description": "a demo. dont worry abou it",
-  "main": "uxcore.bundle.js",
-  "jsnext:main": "uxcore.module.js",
-  "module": "uxcore.module.js",
-  "types": "uxcore.module.d.ts",
+  "main": "index.d.ts",
+  "jsnext:main": "index.d.ts",
+  "module": "index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "test": "mocha --require ts-node/register test/**/*.spec.ts --recursive",
     "test:watch": "mocha -w --require ts-node/register test/**/*.spec.ts --recursive",
