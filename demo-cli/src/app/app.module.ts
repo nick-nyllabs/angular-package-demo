@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { HelloWorld } from "../../../lib/helloWorld.component";
+import { HelloWorld } from "../../../lib";
 
 @NgModule({
   declarations: [

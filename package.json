@@ -1,7 +1,7 @@
 {
-  "name": "ngresizable",
+  "name": "ux-core-demo",
   "version": "0.1.2",
-  "description": "Simple, tree-shakable, AoT, Universal and Web Worker friendly resizable component for Angular (2 and beyond).",
+  "description": "a demo. dont worry abou it",
   "main": "ngresizable.bundle.js",
   "jsnext:main": "ngresizable.module.js",
   "module": "ngresizable.module.js",

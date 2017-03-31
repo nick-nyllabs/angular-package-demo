@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HelloWorld } from '../../../lib/helloWorld.component'
+import { HelloWorld } from '../../../lib'
 
 @Component({
   selector: 'app-root',
