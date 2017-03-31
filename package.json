@@ -1,11 +1,11 @@
 {
   "name": "ux-core-demo",
-  "version": "0.2.7",
+  "version": "0.3.3",
   "description": "a demo. dont worry abou it",
-  "main": "ngresizable.bundle.js",
-  "jsnext:main": "ngresizable.module.js",
-  "module": "ngresizable.module.js",
-  "types": "ngresizable.module.d.ts",
+  "main": "uxcore.bundle.js",
+  "jsnext:main": "uxcore.module.js",
+  "module": "uxcore.module.js",
+  "types": "uxcore.module.d.ts",
   "scripts": {
     "test": "mocha --require ts-node/register test/**/*.spec.ts --recursive",
     "test:watch": "mocha -w --require ts-node/register test/**/*.spec.ts --recursive",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mgechev/ngresizable.git"
+    "url": "git+https://github.com/mgechev/uxcore.git"
   },
   "keywords": [
     "resize",
